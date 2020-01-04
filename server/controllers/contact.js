@@ -1,9 +1,11 @@
 'use strict'
 
+const modelContact = require('../models/contact');
+
 class ContactController {
 
     static getAllContact = (req, res, next) => {
-        res.send('get all contacts')
+        
     }
 
     static getContactDetail = (req, res, next) => {
